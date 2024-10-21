@@ -13,7 +13,7 @@ export const generatePassword = (length, options) => {
     if (options.includeSpecialChars) charSet += specialChars;
 
     if (charSet === '') {
-        throw new Error('At least one character type must be selected.');
+        throw new Error('centang salah satu ya sayang');
     }
 
     let password = '';
